@@ -1,0 +1,172 @@
+* {
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+  }
+  
+  body {
+    /* background: #232526; 
+    background: -webkit-linear-gradient(
+      to right,
+      #414345,
+      #232526
+    ); 
+    background: linear-gradient(
+      to right,
+      #414345,
+      #232526
+    ); 
+  
+    color: #333333;
+    */
+    background: #1a2980; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #26d0ce,
+      #1a2980
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #26d0ce,
+      #1a2980
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .container {
+    border-radius: 10px;
+  
+    background: white;
+    width: 650px;
+    height: 630px;
+    display: block;
+    margin: 40px 400px;
+    padding: 20px;
+  }
+  
+  ul {
+    /*  */
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 6px;
+    /* background-color: burlywood; */
+    border-radius: 30px;
+    margin: 8px;
+    border: skyblue 2px solid;
+    font-size: medium;
+    word-spacing: 4px;
+    margin-left: 10px;
+  }
+  .heading {
+    /* color: white; */
+    word-spacing: 7px;
+    letter-spacing: 7px;
+    color: aliceblue;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 30px;
+    /* margin-left: 265px; */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 94%;
+    border-bottom: 1px white;
+    border-bottom-style:ridge ;
+    padding: 25px 23px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #1a2980; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #26d0ce,
+      #1a2980
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #26d0ce,
+      #1a2980
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .first_input {
+    border-width: 3px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: skyblue;
+    padding: 17px;
+    width: 52%;
+    font-size: medium;
+  }
+  
+  .addtask {
+  
+    border: skyblue 3px solid;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+  
+    width: 130px;
+    display: block;
+    font-size: 13px;
+  
+    
+  }
+  .addtask:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+  }
+  .addtask:active{
+      background-color: aqua;
+      box-shadow: 0 3px #666;
+      transform: translateY(4px);
+      /* transition-duration: 0.4s; */
+    }
+  
+  .new-tasks {
+    float: left;
+    width: 50%;
+    
+  }
+  .completed-tasks {
+    float: right;
+    width: 50%;
+  
+  }
+  
+  .add-title {
+    text-align: center;
+  }
+  
+  .formone {
+    display: flex;
+    width: 101%;
+    justify-content: space-around;
+    /* border: 3px aqua solid; */
+    border-top: none;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  
+    background: #1a2980; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #26d0ce,
+      #1a2980
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #26d0ce,
+      #1a2980
+    );
+  }
+  .add-title{
+    font: 10px;
+  }
+  
