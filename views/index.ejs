@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Task Management Site</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap"   rel="stylesheet" />
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 class="heading">Task Manager</h2>
+
+      <form action="/addtask" method="POST">
+          <div class="formone">
+        <input type="text" name="newtask" placeholder="Enter new task name here" class="first_input" />
+        <button class="addtask"> add task</button>
+        <button formaction="/removetask" type="submit" id="top" class="addtask">
+            Task(s) Done
+          </button>
+        </div>
+        <div class="new-tasks"> 
+            
+        <h2 class="add-title">Added</h2>
+
+        <% for( var i = 0; i < task.length; i++){ %>
+        <li class="round">
+          <input type="checkbox" name="check" value="<%= task[i] %>" /> <%=
+          task[i] %>
+        </li>
+        <% } %>
+
+        </div>
+
+        <div class="completed-tasks">
+            
+            </form>
+      
+            <h2 class="add-title">Completed</h2>
+      
+            <% for(var i = 0; i < complete.length; i++){ %>
+            <li><input type="checkbox" checked /><%= complete[i] %></li>
+            <% } %>
+        </div>
+    </div>
+  </body>
+</html>
